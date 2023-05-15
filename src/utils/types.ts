@@ -11,4 +11,5 @@ export interface VideoType {
   duration: string;
   id: string;
   thumbnail: string;
+  position: number;
 }

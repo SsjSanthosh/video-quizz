@@ -1,32 +1,37 @@
 [
     {
         "title": "Next.js Tutorial #1 - Introduction & Setup",
-        "id": "9P8mASSREYM",
+        "id": "A63UxsQsEbU",
         "duration": "08:42",
-        "thumbnail":"https://i3.ytimg.com/vi/A63UxsQsEbU/hqdefault.jpg"
+        "thumbnail": "https://i3.ytimg.com/vi/A63UxsQsEbU/hqdefault.jpg",
+        "position": 1
     },
     {
         "title": "Next.js Tutorial #2 - Pages & Routes",
-        "id": "zktJ8-k0JD",
+        "id": "zktJ8-k0JDc",
         "duration": "05:02",
-        "thumbnail":"https://i3.ytimg.com/vi/zktJ8-k0JDc/hqdefault.jpg"
+        "thumbnail": "https://i3.ytimg.com/vi/zktJ8-k0JDc/hqdefault.jpg",
+        "position":2
     },
     {
         "title": "Next.js Tutorial #3 - Adding Other Components",
         "id": "MJT_WXdSPjE",
         "duration": "04:05",
-        "thumbnail":"https://i3.ytimg.com/vi/MJT_WXdSPjE/hqdefault.jpg"
+        "thumbnail": "https://i3.ytimg.com/vi/MJT_WXdSPjE/hqdefault.jpg",
+        "position":3
     },
     {
         "title": "Next.js Tutorial #4 - Linking Between Pages",
         "id": "u8vaAc3ivcY",
         "duration": "05:03",
-        "thumbnail":"https://i3.ytimg.com/vi/u8vaAc3ivcY/hqdefault.jpg"
+        "thumbnail": "https://i3.ytimg.com/vi/u8vaAc3ivcY/hqdefault.jpg",
+        "position":4
     },
     {
         "title": "Next.js Tutorial #5 - Creating a Layout Component",
         "id": "DGn25s42NvQ",
         "duration": "04:33",
-        "thumbnail":"https://i3.ytimg.com/vi/DGn25s42NvQ/hqdefault.jpg"
+        "thumbnail": "https://i3.ytimg.com/vi/DGn25s42NvQ/hqdefault.jpg",
+        "position":5
     }
 ]

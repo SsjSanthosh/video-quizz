@@ -4,6 +4,8 @@ import styles from "./HomePage.module.scss";
 import { useState, useEffect } from "react";
 import { VideoType } from "utils/types";
 import { raxios } from "utils/functions";
+import Link from "next/link";
+import VideoItem from "components/VideoItem";
 
 const HomePage = () => {
   const [videos, setVideos] = useState<VideoType[]>([]);
@@ -38,6 +40,15 @@ const HomePage = () => {
     <AppLayout>
       <main className={styles["container"]}>
         <h1>Your videos</h1>
+        <div className={styles["videos-container"]}>
+          {videos.map((vid) => {
+            return (
+              <Link key={vid.id} href={`/watch/${vid.id}`}>
+                <VideoItem video={vid} />
+              </Link>
+            );
+          })}
+        </div>
       </main>
     </AppLayout>
   );

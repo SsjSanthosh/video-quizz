@@ -1,3 +1,14 @@
-@import "styles/variables";
 .container {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+}
+
+.icon {
+    font-size: 28px;
+}
+
+.icon-container {
+    margin:0;
 }

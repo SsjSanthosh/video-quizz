@@ -39,7 +39,7 @@ const HomePage = () => {
   return (
     <AppLayout>
       <main className={styles["container"]}>
-        <h1>Your videos</h1>
+        <h1>Your course videos</h1>
         <div className={styles["videos-container"]}>
           {videos.map((vid) => {
             return (

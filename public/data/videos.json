@@ -4,34 +4,409 @@
         "id": "A63UxsQsEbU",
         "duration": "08:42",
         "thumbnail": "https://i3.ytimg.com/vi/A63UxsQsEbU/hqdefault.jpg",
-        "position": 1
+        "position": 1,
+        "questions": [
+            {
+                "question": "What is the best framework for getting a job?",
+                "id": 1,
+                "correct": "3",
+                "options": [
+                    {
+                        "option": "Right answer",
+                        "id": "3",
+                        "value": "3"
+                    },
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2",
+                        "value": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "1",
+                        "value": "1"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "4",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "question": "Which is the best city for developers?",
+                "id": 2,
+                "correct": "1",
+                "options": [
+                    {
+                        "option": "Right answer",
+                        "id": "1"
+                    },
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "3"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "4"
+                    }
+                ]
+            },
+            {
+                "question": "Is frontend harder than backend?",
+                "id": 5,
+                "correct": "4",
+                "options": [
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "3"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "1"
+                    },
+                    {
+                        "option": "Right answer",
+                        "id": "4"
+                    }
+                ]
+            }
+        ]
     },
     {
         "title": "Next.js Tutorial #2 - Pages & Routes",
         "id": "zktJ8-k0JDc",
         "duration": "05:02",
         "thumbnail": "https://i3.ytimg.com/vi/zktJ8-k0JDc/hqdefault.jpg",
-        "position":2
+        "position": 2,
+        "questions": [
+            {
+                "question": "What is the best framework for getting a job?",
+                "id": 1,
+                "correct": "3",
+                "options": [
+                    {
+                        "option": "Right answer",
+                        "id": "3",
+                        "value": "3"
+                    },
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2",
+                        "value": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "1",
+                        "value": "1"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "4",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "question": "Which is the best city for developers?",
+                "id": 2,
+                "correct": "1",
+                "options": [
+                    {
+                        "option": "Right answer",
+                        "id": "1"
+                    },
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "3"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "4"
+                    }
+                ]
+            },
+            {
+                "question": "Is frontend harder than backend?",
+                "id": 5,
+                "correct": "4",
+                "options": [
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "3"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "1"
+                    },
+                    {
+                        "option": "Right answer",
+                        "id": "4"
+                    }
+                ]
+            }
+        ]
     },
     {
-        "title": "Next.js Tutorial #3 - Adding Other Components",
+        "title": "Next.js Tutorial #3 - Components",
         "id": "MJT_WXdSPjE",
         "duration": "04:05",
         "thumbnail": "https://i3.ytimg.com/vi/MJT_WXdSPjE/hqdefault.jpg",
-        "position":3
+        "position": 3,
+        "questions": [
+            {
+                "question": "What is the best framework for getting a job?",
+                "id": 1,
+                "correct": "3",
+                "options": [
+                    {
+                        "option": "Right answer",
+                        "id": "3",
+                        "value": "3"
+                    },
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2",
+                        "value": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "1",
+                        "value": "1"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "4",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "question": "Which is the best city for developers?",
+                "id": 2,
+                "correct": "1",
+                "options": [
+                    {
+                        "option": "Right answer",
+                        "id": "1"
+                    },
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "3"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "4"
+                    }
+                ]
+            },
+            {
+                "question": "Is frontend harder than backend?",
+                "id": 5,
+                "correct": "4",
+                "options": [
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "3"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "1"
+                    },
+                    {
+                        "option": "Right answer",
+                        "id": "4"
+                    }
+                ]
+            }
+        ]
     },
     {
-        "title": "Next.js Tutorial #4 - Linking Between Pages",
+        "title": "Next.js Tutorial #4 - Links",
         "id": "u8vaAc3ivcY",
         "duration": "05:03",
         "thumbnail": "https://i3.ytimg.com/vi/u8vaAc3ivcY/hqdefault.jpg",
-        "position":4
+        "position": 4,
+        "questions": [
+            {
+                "question": "What is the best framework for getting a job?",
+                "id": 1,
+                "correct": "3",
+                "options": [
+                    {
+                        "option": "Right answer",
+                        "id": "3",
+                        "value": "3"
+                    },
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2",
+                        "value": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "1",
+                        "value": "1"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "4",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "question": "Which is the best city for developers?",
+                "id": 2,
+                "correct": "1",
+                "options": [
+                    {
+                        "option": "Right answer",
+                        "id": "1"
+                    },
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "3"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "4"
+                    }
+                ]
+            },
+            {
+                "question": "Is frontend harder than backend?",
+                "id": 5,
+                "correct": "4",
+                "options": [
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "3"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "1"
+                    },
+                    {
+                        "option": "Right answer",
+                        "id": "4"
+                    }
+                ]
+            }
+        ]
     },
     {
-        "title": "Next.js Tutorial #5 - Creating a Layout Component",
+        "title": "Next.js Tutorial #5 - Layouts",
         "id": "DGn25s42NvQ",
         "duration": "04:33",
         "thumbnail": "https://i3.ytimg.com/vi/DGn25s42NvQ/hqdefault.jpg",
-        "position":5
+        "position": 5,
+        "questions": [
+            {
+                "question": "What is the best framework for getting a job?",
+                "id": 1,
+                "correct": "3",
+                "options": [
+                    {
+                        "option": "Right answer",
+                        "id": "3",
+                        "value": "3"
+                    },
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2",
+                        "value": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "1",
+                        "value": "1"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "4",
+                        "value": "4"
+                    }
+                ]
+            },
+            {
+                "question": "Which is the best city for developers?",
+                "id": 2,
+                "correct": "1",
+                "options": [
+                    {
+                        "option": "Right answer",
+                        "id": "1"
+                    },
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "3"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "4"
+                    }
+                ]
+            },
+            {
+                "question": "Is frontend harder than backend?",
+                "id": 5,
+                "correct": "4",
+                "options": [
+                    {
+                        "option": "Wrong answer 2",
+                        "id": "2"
+                    },
+                    {
+                        "option": "Wrong answer 1",
+                        "id": "3"
+                    },
+                    {
+                        "option": "Wrong answer 3",
+                        "id": "1"
+                    },
+                    {
+                        "option": "Right answer",
+                        "id": "4"
+                    }
+                ]
+            }
+        ]
     }
 ]

@@ -1,8 +1,8 @@
 import YouTube, { YouTubePlayer, YouTubeEvent } from "react-youtube";
 import { END_STATE, PAUSED_STATE, PLAYING_STATE } from "utils/constants";
 import { useState } from "react";
-import styles from "./VideoPlayer.module.scss";
 import { useRouter } from "next/router";
+import { getFromStorage } from "utils/functions";
 
 let timer: NodeJS.Timer;
 
@@ -36,13 +36,16 @@ const VideoPlayer = ({ onEnd }: { onEnd: () => void }) => {
         return;
     }
   };
-  if(!query.id) return null;
   return (
     <div>
       <YouTube
         videoId={query.id as string}
-        onReady={(e) => setPlayer(e.target)}
+        onReady={(e) => {
+          setPlayer(e.target);
+          e.target.seekTo(getFromStorage(`${query.id}_progress`) || '0')
+        }}
         onStateChange={(e) => handleStateChange(e.data)}
+        opts={{ playerVars: { autoplay: 1, loop: 1 } }}
       />
     </div>
   );

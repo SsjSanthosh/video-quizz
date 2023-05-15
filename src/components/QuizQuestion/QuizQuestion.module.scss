@@ -1,0 +1,12 @@
+@import "styles/variables";
+.container {
+    display: flex;
+    flex-direction: column;
+    padding:$sp-xxl;
+    align-items: flex-start;
+    width:400px;
+    row-gap: $sp-lg;
+    h2 {
+        margin-bottom: $sp-lg;
+    }
+}
